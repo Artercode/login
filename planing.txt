@@ -1,0 +1,54 @@
+-menyelesaikan backend register login dan lupa password.
+-klarivikasi email pada saat register dengan mengirimkan email ke pendaftar baru. 
+-login masuk ke halaman profile anggota.
+-jika sudah login gambar gembok diubah jadi avatar.
+
+-data profile:
+   -foto 
+   -nama 
+   -alamat, kota, propinsi
+   -email
+   -github 
+   -handphone
+   -coding (berupa drop list) maksutnya coding yang dikuasai
+     dan siap/mau membentuk/bagian sebuah grup, nanti bisa di search di bagian grup.
+   -edit password
+   -delete akun (beri saja waktu countdown 1 minggu setelah di delete, untuk pembatalannya)
+   -aktifitas (penilaian kontibusi kepada komunitas)
+      untuk sementara hanya 1 penilaian yaitu 1 kali login per hari + 1 nilai,
+      yang lainnya belum tau mohon usulannya kalau ada.
+Untuk profil berupa list saja dalam card supaya responsive, 
+bagian kiri ada check listnya bila anggota tidak mau dilihat anggota lain bisa di check 
+bagian kanan untuk edit profile. 
+form edit jadi satu saja di profil ini jadi gak usah nambah form edit.
+
+-tanya:
+tempat anggota menanyakan soal coding, dan tanya jawab.
+
+-projek:
+tempat untuk anggota bila ingin membuat sebuah projek, supaya semua anggota bisa 
+saling bantu. (sudah ada contoh ada di website: komunitascoding.com)
+semua bentuk tampilan sama dengan itu (tanya, projek dan grup)
+di bagian sebelah kiri ada tanda check untuk mengirim projek ini ke  halaman aula 
+(memposting projek supaya bisa dilihat oleh anggota lain)
+Untuk projek ada countdown time nya 30 hari, dan akan hilang dari aula, 
+tapi di bagian profile masih ada jika belum selesai projeknya bisa di check/postting lagi.
+
+-grup:
+tempat untuk anggota membentuk sebuah grup untuk menyelesaikan sebuah projek.
+
+Keempat bagian diatas merupakan data yang dimiliki oeleh semua member termasuk
+admin dan ceo karena semua juga termasuk anggota.
+
+
+
+menu anggota: profil, tanya, projek dan grup 
+menu admin: tabel anggota (lengkap dengan edit,tambah, ubah dan hapus + pagination)
+            tabel tanya
+            tabel projek
+            tabel grup
+            (intinya semuanya yang diperlukan untuk mengelola komunitas)
+menu CEO: role = untuk menentukan role.
+          menu = untuk menambah menu baru dalam sidebar
+          submenu = untuk menambah submenu dalam sidebar
+          menu untuk menunjuk atau memberhentikan admin.
